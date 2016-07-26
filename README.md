@@ -1,3 +1,5 @@
-LINCENSE:
+LICENSE: 
 
-MIT License 
+MIT License
+
+Hello, my name is Caroline
