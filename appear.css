@@ -1,0 +1,65 @@
+h1 {
+	color: #3A5675;
+	font-family: Avenir, Sans-Serif;
+	font-size: 400%;
+	text-align: center;
+
+	display: block;
+	margin-top: 40px;
+}
+
+h3 {
+	color: #3A5675;
+	font-family: Avenir, Sans-Serif;
+	font-size: 200%;
+}
+
+h4 {
+	color: #3A5675;
+	font-family: Avenir, Sans-Serif;
+	font-size: 160%;
+
+	margin-top: 20px;
+}
+
+p {
+	font-family: Avenir, Sans-Serif;
+	font-size: 18px;
+	text-indent: 40px;
+}
+
+li {
+	font-family: Avenir, Sans-Serif;
+	font-size: 18px;
+}
+
+.jumbotron {
+	background-image: url(sfappear.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 250px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 45px;
+
+	width: 800px;
+	height: auto;
+}
+
+footer .glyphicon {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+	padding: 20px;
+}
+
+footer {
+	background-color: #3A5675;
+	margin-top: 50px;
+}
+
