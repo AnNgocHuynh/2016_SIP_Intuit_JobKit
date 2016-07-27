@@ -11,6 +11,12 @@
 
 		<!-- Latest compiled JavaScript -->
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script>
+      function resetFunction() {
+        document.getElementById("donation-info").reset();
+      }
+    </script>
 <style>
 		.navbar {
     			margin-bottom: 0;
@@ -81,7 +87,17 @@
 		</div>
 
 <!-- CONTENT STARTS HERE -->
-<h1>Where your donations will go:</h1>
+
+
+<div class="jumbotron"></div>
+
+<h1>Donate</h1>
+
+
+
+
+
+<h2>Why donate?</h2>
   <p></p>
 
 
@@ -94,14 +110,25 @@
 </form>
 
 
-<form>
+<form id="donation-info">
   <input name="name" type="text" class="feedback-input" placeholder="Amount"/>
   <input name="email" type="text" class="feedback-input" placeholder="Company Name" />   
   <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
 </form>
 
-<button class="button" style="vertical-align:middle">
-<span>Submit</span></button>
+<button class="button" style="vertical-align:middle" type="reset" onclick="resetFunction()"><span>Submit</span></button>
+
+
+<footer class="container-fluid text-center">
+      <a href="donate.html" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+      </a> 
+    </footer>
+
+
+
+
+
 
 
 
