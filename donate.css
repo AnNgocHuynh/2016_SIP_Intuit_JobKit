@@ -103,12 +103,11 @@ margin-top:50px;
 }
 
 .jumbotron {
-  background-image: url(sfdonate.jpg);
+  background-image: url(sfdonate.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 250px;
+  padding: 18%;
 }
-
 #donation-button {
   font-family: Avenir, Sans-Serif;
   font-size: 30px;
