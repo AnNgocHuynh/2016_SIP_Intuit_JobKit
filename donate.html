@@ -87,10 +87,14 @@
 
 <h2>Donate</h2>
 
-<form>
-  <input type="radio" name="donation-type" value="flat" checked> Flat Donation<br>
-  <input type="radio" name="donation-type" value="long-term"> Long-term Donation<br>
-</form>
+<div class="radio">
+  <input  id="flat" type="radio" name="donation" value="flat">
+  <label for="flat">Flat Donation</label>
+  <input id="long-term" type="radio" name="donation" value="long-term">
+  <label for="long-term">Long-term Donations</label>
+</div>
+
+
 
 <form>
   <input name="name" type="text" class="feedback-input" placeholder="Amount"/>
