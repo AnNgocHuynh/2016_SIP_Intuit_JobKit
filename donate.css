@@ -112,6 +112,19 @@ margin-top:50px;
 #donation-button {
   font-family: Avenir, Sans-Serif;
   font-size: 30px;
+  text-align: center;
+}
+
+
+
+#myModal {
+  top: 30%;
+  outline: none;
+
+  font-family: Avenir, Sans-Serif;
+  font-size: 30px;
+  text-align: center;
+  height: 250px;
 }
 
 
