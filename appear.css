@@ -45,6 +45,14 @@ p {
 	color: #00A9DE;
 }
 
+.carousel-indicators li {
+	border-color: #3A5675;
+}
+
+.carousel-indicators li.active {
+	background-color: #3A5675;
+}
+
 .jumbotron {
 	background-image: url(sfappear.jpg);
 	background-repeat: no-repeat;
