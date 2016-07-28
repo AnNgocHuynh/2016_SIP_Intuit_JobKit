@@ -1,8 +1,10 @@
 h1 {
 	color: #3A5675;
 	font-family: Avenir, Sans-Serif;
-	font-size: 500%;
+	font-size: 300%;
 	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 20px;
 
 	display: block;
 	margin-top: 20px;
@@ -33,11 +35,10 @@ p {
 }
 
 
-li {
-	font-family: Avenir, Sans-Serif;
+.list-tips {
 	font-size: 18px;
+	font-family: Avenir, Sans-Serif;
 }
-
 
 .carousel-control.right, .carousel-control.left {
 	background-image: none;

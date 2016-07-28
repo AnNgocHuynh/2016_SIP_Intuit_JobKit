@@ -106,7 +106,7 @@ margin-top:50px;
   background-image: url(sfdonate.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 20%;
+  padding: 19%;
 }
 #donation-button {
   font-family: Avenir, Sans-Serif;
@@ -121,9 +121,16 @@ margin-top:50px;
   outline: none;
 
   font-family: Avenir, Sans-Serif;
-  font-size: 30px;
+  height: 300px;
+}
+
+
+#modal-text {
+  display: block;
   text-align: center;
-  height: 250px;
+  font-size: 40px;
+
+  margin-top: 10px;
 }
 
 
@@ -132,9 +139,12 @@ h1 {
   font-family: Avenir, Sans-Serif;
   margin-top: 50px;
   margin-left: 50px;
-  font-size: 500%;
+  font-size: 300%;
   text-align: center;
   color: #3A5675;
+
+  padding-top: 40px;
+  padding-bottom: 27px;
 
 }
 
