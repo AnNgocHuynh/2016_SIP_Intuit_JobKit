@@ -103,10 +103,10 @@ margin-top:50px;
 }
 
 .jumbotron {
-  background-image: url(sfdonate.png);
+  background-image: url(sfdonate.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 18%;
+  padding: 20%;
 }
 #donation-button {
   font-family: Avenir, Sans-Serif;
@@ -130,18 +130,28 @@ margin-top:50px;
 
 h1 {
   font-family: Avenir, Sans-Serif;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: 50px;
-  font-size: 400%;
+  font-size: 500%;
   text-align: center;
   color: #3A5675;
 
 }
 
-h2 {
-  font-family: Avenir, Sans-Serif;
-  margin-top: 50px;
+
+p {
   margin-left: 50px;
-  font-size: 40px;
-  color: #3A5675;
+  margin-right: 50px;
+  margin-top: 60px;
+
+  text-align: justify;
+  text-indent: 20px;
+  font-family: Avenir, Sans-Serif;
+  font-size: 24px;
+
 }
+
+
+
+
+
